@@ -8,7 +8,26 @@
 @layer utilities {
 
   .heading {
-    @apply uppercase bg-black px-6 py-3 font-work-sans font-extrabold text-white sm:text-[54px] sm:leading-[64px] text-[36px] leading-[46px] max-w-5xl text-center my-5;
+    text-transform: uppercase;
+    background-color: black;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 36px;
+    line-height: 46px;
+    max-width: 80rem;
+    text-align: center;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+
+    @media (min-width: 640px) {
+        font-size: 54px;
+        line-height: 64px;
+    }
   }
 
 
